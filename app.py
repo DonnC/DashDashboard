@@ -16,6 +16,7 @@ from app_users import USERNAME_PASSWORD_PAIRS
 
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
 auth = dash_auth.BasicAuth(app, USERNAME_PASSWORD_PAIRS)
+server = app.server
 
 # load static data
 # annual international trade stats
