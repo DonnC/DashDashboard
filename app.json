@@ -1,0 +1,6 @@
+{
+    "name": "DashDashboard",
+    "description": "visualize GDP data over a certain period from uploaded file",
+    "repository": "https://github.com/DonnC/DashDashboard",
+    "keywords": ["python", "dash", "visualization"]
+  }
